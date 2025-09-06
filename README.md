@@ -8,17 +8,11 @@ The actual dataset contained 2800+ protein biomarkers. The workflow involved imp
 Methodology- 
 
 Data Preprocessing
-
 MICE imputation for missing values
-
 Standardization of features
-
 Exploratory Data Analysis (EDA)
-
 Feature Selection: LASSO feature selection. Reduced to top 110 features
-
 Model Training & Evaluation
-
 Dataset split into training (80%) and testing sets (20%)
 
 Models used:
