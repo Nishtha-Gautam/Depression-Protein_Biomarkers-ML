@@ -8,7 +8,9 @@ The actual dataset contained 2800+ protein biomarkers. The workflow involved imp
 Methodology- 
 
 Data Preprocessing: MICE imputation → Standardization → Exploratory Data Analysis (EDA)
+
 Feature Selection: LASSO feature selection → Top 110 features retained
+
 Model Training & Evaluation: Train (80%)-test (20%) split → Logistic Regression (LR) → Support Vector Machine (SVM) → Multi-Layer Perceptron (MLP) → Hyperparameter tuning
 
 Models used:
