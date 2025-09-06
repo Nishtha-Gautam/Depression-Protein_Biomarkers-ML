@@ -16,7 +16,7 @@ Support Vector Machine (SVM),
 Multi-Layer Perceptron (MLP)
 (Hyperparameter tuning performed for each)
 
-Results <br><hr>
+Results <br>
 Logistic Regression (LR):<br>
 Best performance among models<br>
 ROC-AUC: 0.87
