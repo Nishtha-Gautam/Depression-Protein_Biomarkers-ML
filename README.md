@@ -6,19 +6,26 @@ This project was carried out at CSIR-IGIB. Due to data confidentiality, the orig
 The actual dataset contained 2800+ protein biomarkers. The workflow involved imputation, preprocessing, feature selection, model building, and evaluation.
 
 Methodology- 
+
 Data Preprocessing
+
 MICE imputation for missing values
+
 Standardization of features
+
 Exploratory Data Analysis (EDA)
+
 Feature Selection: LASSO feature selection. Reduced to top 110 features
+
 Model Training & Evaluation
+
 Dataset split into training (80%) and testing sets (20%)
 
 Models used:
-Logistic Regression (LR)
-Support Vector Machine (SVM)
+Logistic Regression (LR),
+Support Vector Machine (SVM),
 Multi-Layer Perceptron (MLP)
-Hyperparameter tuning performed for each
+(Hyperparameter tuning performed for each)
 
 Results
 Logistic Regression achieved the best discrimination between subtypes, closely followed by SVM.
@@ -27,6 +34,7 @@ Key biomarkers identified:
 GFAP, PDP1, and CREG1 → consistently important across models (linked to neuroinflammation, energy metabolism, and cellular regulation). The convergence of these markers across models supports their potential as biomarkers for depression subtypes, offering promising directions for precision psychiatry.
 
 Limitations
+
 The original dataset and results cannot be shared due to confidentiality.
 Dummy models are shown here to replicate the workflow.
 
