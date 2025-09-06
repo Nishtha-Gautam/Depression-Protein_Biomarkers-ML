@@ -1,7 +1,7 @@
 # Depression-Protein_Biomarkers-ML
 Machine learning study on protein biomarkers for depression classification — project conducted under CSIR-IGIB.
 
-Project Overview
+Project Overview<br>
 This project was carried out at CSIR-IGIB. Due to data confidentiality, the original dataset and results cannot be shared here. Instead, a similar workflow with dummy models is provided to showcase the methodology.
 The actual dataset contained 2800+ protein biomarkers. The workflow involved imputation, preprocessing, feature selection, model building, and evaluation.
 
@@ -16,7 +16,7 @@ Support Vector Machine (SVM),
 Multi-Layer Perceptron (MLP)
 (Hyperparameter tuning performed for each)
 
-Results <br>
+Results <br><hr>
 Logistic Regression (LR):<br>
 Best performance among models<br>
 ROC-AUC: 0.87
@@ -32,10 +32,9 @@ ROC-AUC: 0.78
 Observation:<br>
 The convergence of GFAP, PDP1, and CREG1 across models supports their potential as robust biomarkers for depression subtypes and offers promising directions for precision psychiatry.
 
-Limitations
-
-The original dataset and results cannot be shared due to confidentiality.
+Limitations<br>
+The original dataset and results cannot be shared due to confidentiality.<br>
 Dummy models are shown here to replicate the workflow.
 
-License
+License<br>
 All rights reserved. This project is part of CSIR-IGIB and the code/data may not be reused without permission.
