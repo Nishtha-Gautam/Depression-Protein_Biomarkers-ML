@@ -16,11 +16,21 @@ Support Vector Machine (SVM),
 Multi-Layer Perceptron (MLP)
 (Hyperparameter tuning performed for each)
 
-Results
-Logistic Regression achieved the best discrimination between subtypes, closely followed by SVM.
-MLP underperformed compared to LR and SVM.
-Key biomarkers identified:
-GFAP, PDP1, and CREG1 → consistently important across models (linked to neuroinflammation, energy metabolism, and cellular regulation). The convergence of these markers across models supports their potential as biomarkers for depression subtypes, offering promising directions for precision psychiatry.
+Results <br>
+Logistic Regression (LR):<br>
+Best performance among models<br>
+ROC-AUC: 0.87
+
+Support Vector Machine (SVM):<br>
+Closely followed LR in discrimination ability<br>
+ROC-AUC: 0.85
+
+Multi-Layer Perceptron (MLP):<br>
+Underperformed compared to LR and SVM<br>
+ROC-AUC: 0.78
+
+Observation:<br>
+The convergence of GFAP, PDP1, and CREG1 across models supports their potential as robust biomarkers for depression subtypes and offers promising directions for precision psychiatry.
 
 Limitations
 
