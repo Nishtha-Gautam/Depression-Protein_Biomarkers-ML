@@ -5,14 +5,20 @@ Project Overview
 This project was carried out at CSIR-IGIB. Due to data confidentiality, the original dataset and results cannot be shared here. Instead, a similar workflow with dummy models is provided to showcase the methodology.
 The actual dataset contained 2800+ protein biomarkers. The workflow involved imputation, preprocessing, feature selection, model building, and evaluation.
 
-Methodology
+Methodology- 
 
 Data Preprocessing
+
 MICE imputation for missing values
+
 Standardization of features
+
 Exploratory Data Analysis (EDA)
+
 Feature Selection: LASSO feature selection. Reduced to top 110 features
+
 Model Training & Evaluation
+
 Dataset split into training (80%) and testing sets (20%)
 
 Models used:
