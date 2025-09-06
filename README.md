@@ -16,20 +16,26 @@ Support Vector Machine (SVM),
 Multi-Layer Perceptron (MLP)
 (Hyperparameter tuning performed for each)
 
-Results <br>
-Logistic Regression (LR):<br>
-Best performance among models<br>
-ROC-AUC: 0.87
+## Results
 
-Support Vector Machine (SVM):<br>
-Closely followed LR in discrimination ability<br>
-ROC-AUC: 0.85
+Logistic Regression (LR):  
+Best performance among models  
+ROC-AUC: 0.87  
 
-Multi-Layer Perceptron (MLP):<br>
-Underperformed compared to LR and SVM<br>
-ROC-AUC: 0.78
+Support Vector Machine (SVM):  
+Closely followed LR in discrimination ability  
+ROC-AUC: 0.85  
 
-Observation:<br>
+Multi-Layer Perceptron (MLP):  
+Underperformed compared to LR and SVM  
+ROC-AUC: 0.78  
+
+### ROC-AUC Curve Comparison
+<p align="center">
+  <img src="results/roc_auc.png" alt="ROC-AUC Curve Comparison" width="600"/>
+</p>
+
+**Observation:**  
 The convergence of GFAP, PDP1, and CREG1 across models supports their potential as robust biomarkers for depression subtypes and offers promising directions for precision psychiatry.
 
 Limitations<br>
