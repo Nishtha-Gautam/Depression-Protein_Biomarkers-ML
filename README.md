@@ -32,7 +32,7 @@ ROC-AUC: 0.78
 
 ### ROC-AUC Curve Comparison
 <p align="center">
-  <img src="results/roc_auc.png" alt="ROC-AUC Curve Comparison" width="600"/>
+  <img src="[results/roc_auc.png](https://github.com/Nishtha-Gautam/Depression-Protein_Biomarkers-ML/blob/main/ROC-AUC.png)" alt="ROC-AUC Curve Comparison" width="600"/>
 </p>
 
 **Observation:**  
